@@ -1,0 +1,11 @@
+{
+    "title": "Willkommen zu react und react-i18next",
+    "secondHead" : "this is second heading component in different language",
+    "key": "Current date is {{date, YYYY/DD/MM}}",
+    "key2": "{{text, uppercase}} just uppercased",
+    "formattedDate": "{{date, Indian }}",
+    "description": {
+      "part1": "Um loszulegen, ändere <1>src/App(DE).js</1> speicheren und neuladen.",
+      "part2": "Ändere die Sprachen zwischen deutsch und englisch mit Hilfe der beiden Schalter."
+    }
+  }
