@@ -1,9 +1,8 @@
 {
     "title": "Welcome to react using react-i18next",
     "secondHead" : "this is second heading component in primary language",
-    "key": "Current date is {{date, DD/MM/YYYY}}",
-    "key2": "{{text, uppercase}} just uppercased",
-    "formattedDate": "{{date, English}}",
+    "currency" : "amount payable {{number, Euros}}",
+    "formattedDate": "Current Date is {{date, English}}",
     "description": {
       "part1": "To get started, edit <1>src/App.js</1> and save to reload.",
       "part2": "Switch language between english and german using buttons above."

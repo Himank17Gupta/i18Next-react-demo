@@ -1,5 +1,6 @@
 import i18n from "i18next";
 import { initReactI18next } from "react-i18next";
+import numeral from 'numeral';
 
 // import translationEN from '../public/locales/en/translation.json';
 // import translationGE from '../public/locales/ge/translation.json';
@@ -34,6 +35,12 @@ i18n
         }
         else if (format === 'Indian') {
             return new Intl.DateTimeFormat('ind').format(value);
+          }
+        else if (format === 'Euros') {
+            return new Intl.NumberFormat('en-EN', { style: 'currency', currency: 'EUR' }).format(value);
+          }
+        else if (format === 'German') {
+            return new Intl.NumberFormat('de-DE', { style: 'currency', currency: 'DEM' }).format(value);
           }
         return value;
       }

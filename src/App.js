@@ -11,7 +11,7 @@ class LegacyWelcomeClass extends Component {
     return (
     <>
     <p>{t('formattedDate', { date: new Date })}</p>
-    <p>{i18next.t('key2', { text: 'can you hear me' })}</p>
+    <p>{t('currency', { number : new Number(10000)})}</p>
     <h2>{t('title')}</h2>
     <h3>{t('secondHead')}</h3>
     </>
